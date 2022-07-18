@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32616.157
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Weather", "Weather\Weather.csproj", "{D94D1500-762A-48A2-ACA0-4EE53227F802}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Weather.BL", "Weather.BL\Weather.BL.csproj", "{113E686A-8C04-4B4E-AE69-2204237CA35D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Weather.DAL", "Weather.DAL\Weather.DAL.csproj", "{30DD59B7-172A-4018-93D5-CD3FFDDBD538}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D94D1500-762A-48A2-ACA0-4EE53227F802}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D94D1500-762A-48A2-ACA0-4EE53227F802}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D94D1500-762A-48A2-ACA0-4EE53227F802}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D94D1500-762A-48A2-ACA0-4EE53227F802}.Release|Any CPU.Build.0 = Release|Any CPU
+		{113E686A-8C04-4B4E-AE69-2204237CA35D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{113E686A-8C04-4B4E-AE69-2204237CA35D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{113E686A-8C04-4B4E-AE69-2204237CA35D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{113E686A-8C04-4B4E-AE69-2204237CA35D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30DD59B7-172A-4018-93D5-CD3FFDDBD538}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30DD59B7-172A-4018-93D5-CD3FFDDBD538}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30DD59B7-172A-4018-93D5-CD3FFDDBD538}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30DD59B7-172A-4018-93D5-CD3FFDDBD538}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {19FF59DD-4F9A-4678-9D78-2302161C09B4}
+	EndGlobalSection
+EndGlobal

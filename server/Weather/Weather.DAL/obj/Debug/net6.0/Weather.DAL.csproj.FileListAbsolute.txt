@@ -1,0 +1,15 @@
+D:\WeatherTest\server\Weather\Weather.DAL\bin\Debug\net6.0\appsettings.json
+D:\WeatherTest\server\Weather\Weather.DAL\bin\Debug\net6.0\Weather.DAL.deps.json
+D:\WeatherTest\server\Weather\Weather.DAL\bin\Debug\net6.0\Weather.DAL.dll
+D:\WeatherTest\server\Weather\Weather.DAL\bin\Debug\net6.0\Weather.DAL.pdb
+D:\WeatherTest\server\Weather\Weather.DAL\obj\Debug\net6.0\Weather.DAL.csproj.AssemblyReference.cache
+D:\WeatherTest\server\Weather\Weather.DAL\obj\Debug\net6.0\Weather.DAL.GeneratedMSBuildEditorConfig.editorconfig
+D:\WeatherTest\server\Weather\Weather.DAL\obj\Debug\net6.0\Weather.DAL.AssemblyInfoInputs.cache
+D:\WeatherTest\server\Weather\Weather.DAL\obj\Debug\net6.0\Weather.DAL.AssemblyInfo.cs
+D:\WeatherTest\server\Weather\Weather.DAL\obj\Debug\net6.0\Weather.DAL.csproj.CoreCompileInputs.cache
+D:\WeatherTest\server\Weather\Weather.DAL\obj\Debug\net6.0\Weather.DAL.dll
+D:\WeatherTest\server\Weather\Weather.DAL\obj\Debug\net6.0\refint\Weather.DAL.dll
+D:\WeatherTest\server\Weather\Weather.DAL\obj\Debug\net6.0\Weather.DAL.pdb
+D:\WeatherTest\server\Weather\Weather.DAL\obj\Debug\net6.0\ref\Weather.DAL.dll
+D:\WeatherTest\server\Weather\Weather.DAL\bin\Debug\net6.0\Weather.DAL.runtimeconfig.json
+D:\WeatherTest\server\Weather\Weather.DAL\obj\Debug\net6.0\Weather.DAL.genruntimeconfig.cache

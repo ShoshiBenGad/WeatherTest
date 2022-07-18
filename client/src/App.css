@@ -1,0 +1,76 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 50px;
+  align-items: center;
+  height: 100px;
+  width: 100%;
+  background-color:slateblue;
+  color: white;
+  margin-bottom: 50px;
+}
+
+.userName{
+font-weight: bold;
+/* padding: 0 50px; */
+}
+
+.login{
+margin-top: 100px;
+}
+
+image{
+height: 50px;
+width: 50px;
+}
+
+.cityTextInput {
+  cursor: text;
+  width: 100%;
+  text-align: left;
+  border: 1px solid #6a5acd;
+  padding: 10px 5px;
+  border-radius: 5px;
+}
+
+.cities{
+  width: 50%;
+  margin: 50px auto;
+}
+
+.searchTitle , .currentWeaterTitle {
+  color: #6a5acd;
+  font-weight: bold;
+}
+
+.citiesList {
+  height: 200px;
+  text-align: left;
+  overflow: auto;
+}
+
+.city{
+  padding: 5px;
+  cursor: pointer;
+}
+
+.city:hover {
+  background-color: #b7adfc;
+}
+
+.loginButtom ,.favoritesButtom {
+  background-color: slateblue !important;
+  cursor: pointer !important;
+  border: 1px solid white !important;
+  color: white !important;
+}
+
+.favoritesButtom {
+  margin: 0 20px !important;
+}
+
+.loginButtom{
+width: 100%;
+margin-top:10px ;
+}
+
