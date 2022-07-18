@@ -40,7 +40,6 @@ export default function Weather(props) {
     try {
       const response = await getCurrentWeather(newCity.key);
       if (response) setCurrentWeather(response.data);
-      // if (response) setCurrentWeather(response);
     } catch {
       console.log(`error`);
     }
@@ -52,7 +51,6 @@ export default function Weather(props) {
     try {
       const response = await getCities(cityText);
       if (response) setCities(response.data);
-      // if (response) setCities(response);
     } catch {
       console.log(`error`);
     }
