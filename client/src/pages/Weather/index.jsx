@@ -26,34 +26,32 @@ export default function Weather(props) {
     if (city.localizedName) setCityTextSearch(city.localizedName || '');
   }, [city]);
 
-  useEffect(() => {
-    console.log('change cities');
-  }, [cities]);
-
-  const inputProps = {
-    label: 'search city',
-    id: `Cities`
-  };
-
   const cityChoose = async (newCity) => {
     setCity(newCity);
     try {
       const response = await getCurrentWeather(newCity.key);
       if (response) setCurrentWeather(response.data);
     } catch {
-      console.log(`error`);
+      console.log(`error in getCurrentWeather`);
     }
   };
 
   const cityTextChange = async (cityText) => {
     setCity({});
-    setCityTextSearch(cityText);
+    // if (cityTextSearch !== '' && cityText.includes(cityTextSearch)) {
+    //   const newCities = cities.filter((c) =>
+    //     c.localizedName.toLowerCase().includes(cityText)
+    //   );
+    //   setCities(newCities);
+    // } else {
     try {
       const response = await getCities(cityText);
       if (response) setCities(response.data);
     } catch {
-      console.log(`error`);
+      console.log(`error in getCities`);
     }
+    // }
+    setCityTextSearch(cityText);
   };
 
   return (
@@ -65,7 +63,8 @@ export default function Weather(props) {
             <TextField
               fullWidth
               value={cityTextSearch}
-              {...inputProps}
+              label="search city"
+              id="cities"
               variant="outlined"
               onChange={(event) => cityTextChange(event.target.value)}
             />

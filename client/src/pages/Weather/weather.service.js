@@ -1,5 +1,4 @@
 import axios from 'axios';
-// import { cities1, cities2, currentWeather } from '../../demoData';
 
 const isLocal = ['localhost'].includes(window.location.hostname);
 
@@ -14,13 +13,11 @@ const baseSettings = {
 const get = (url) => axios(url,baseSettings);
 
 export const getCities = (cityText) => {
-  // const data =parseInt(cityText.length)%2 == 0 ? cities1 : cities2 ;
   const data = get(`${baseUrl}/GetCities?textToSearch=${cityText}`);
   return data;
 } 
 
 export const getCurrentWeather = (locationKey) => {   
-  // const data = locationKey ? currentWeather : {};
   const data = get(`${baseUrl}/GetCurrentWeather?locationKey=${locationKey}`);
   return data;
 } 
