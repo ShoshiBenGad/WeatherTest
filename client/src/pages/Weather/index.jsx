@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react';
 import PropTypes from 'prop-types';
 import { getCities, getCurrentWeather } from './weather.service';
-import Header from '../../components/Header/header';
-import CurrentWeather from '../../components/CurrentWeather/currentWeather';
+import Header from './Header/header';
+import CurrentWeather from './CurrentWeather/currentWeather';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Container from 'react-bootstrap/Container';

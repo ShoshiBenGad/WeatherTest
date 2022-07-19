@@ -4,7 +4,7 @@ import Button from 'react-bootstrap/Button';
 import {
   getUserFavorites,
   addCityToFavorites
-} from '../../pages/Weather/weather.service';
+} from '../weather.service';
 
 export default function Header(props) {
   const { city, userName } = props;
